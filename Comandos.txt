@@ -1,0 +1,25 @@
+En este archivo podrán encontrar los comandos que más utilizaremos en la terminal
+de Git, así mismo encontrarán la solución a diversos comando para solucionar los 
+diferentes errores a los que se puedan enfrentar.
+
+cabe aclarar que carpeta y directorio son lo mismo, así que si me llego a referir
+a un directorio, En terminos más faciles me estaría refiriendo a una carpeta.
+Con eso aclarado veamos lo que más estaremos utilizando.
+
+Comandos utilizados con más frecuencia:
+1. ls = Nos ayuda a visualizar el contenido de los directorios que queramos.
+2. pwd = Nos mostrará la ruta absoluta del directorio en el que nos encontramos.
+3. cd (Nombre de carpeta) = Este nos ayuda a cambiarnos de directorio, osea, movernos de una carpeta a otra.
+4. cd .. = Nos llevará a la carpeta anterior, siempre y cuando sea posible realizar dicha acción.
+5. rm (Archivo)= Nos sirve para eliminar archivos.
+6. rm -r (Nombre de carpeta) = Si se quiere eliminar un directorio vacio.
+7. rm -rf (Nombre de carpeta) = Si se quiere eliminar un directorio con cualquier tipo de contenido.
+8. mv (Nombe de archivo)= Nos sirve para mover un archivo de una carpeta a otra, o para renombrar un archivo.
+9. mkdir (Nombre de carpeta) = Nos ayuda a crear las diferentes carpetas desde la terminal.
+10. git add (Nombre de archivo) = Nos permite añadir uno o varios archivos a la etapa de stage.
+11. git commit -m ("Mensaje Siempre entre comillas") = Nos pasa los archivos de la etapa de stage a la etapa de commit, esperando a 
+ser posteada en el servidor remoto.
+12. git push origin main = Nos permitirá enviar los cambios hechos en el commit directamente al servidor.
+13. git pull origin main = Lo utilizaremos cada vez que entremos a cambiar algo en el repositorio, este comando nos actualizará nuestro
+repositorio local y nos evitará problemas en el caso de que alguien más haya hecho cambios en el servidor remoto.
+
